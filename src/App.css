@@ -1,38 +1,50 @@
-.App {
-  text-align: center;
+*{
+  background-color: aqua;
+}
+.logo{
+  margin-right: 25px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.payment{
+  float: right;
+  position: relative;
+  margin-top: -60px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.abhi{
+  margin-top: 50px;
+  padding-left: 50px;
+  
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.program{
+  margin-top: 35px;
+  font-weight: bold;
+  padding-left: 50px;
 }
 
-.App-link {
-  color: #61dafb;
+.disc{
+  padding-left: 50px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.amount{
+  margin-top: 35px;
+  padding-left: 90px;
+}
+
+.booking{
+  float: right;
+  padding-right: 25px;
+  margin-top: -250px;
+  
+}
+
+.pay{
+  border: 1px solid black;
+  
+
+}
+.full{
+
+  border:  1px solid black;
 }
